@@ -81,9 +81,70 @@ erDiagram
   notes }o--o{ employee_events : ""
 ```
 ### ## Notas para el revisor
+# dsnd-dashboard-project
 
-Antes de ejecutar el dashboard, instale el paquete local ejecutando estos comandos desde la raíz del repositorio:
+Este proyecto es un dashboard interactivo desarrollado para el programa Data Scientist Nanodegree de Udacity, utilizando `FastHTML` y `SQLite`.
+
+---
+
+## 📦 Estructura del proyecto
+
+dsnd-dashboard-project/
+├── python-package/
+│ ├── employee_events/
+│ ├── setup.py
+│ └── requirements.txt
+├── report/
+│ ├── dashboard.py
+│ └── (otros módulos del dashboard)
+├── .github/
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+yaml
+Copiar
+Editar
+
+---
+
+## ⚙️ Instalación
+
+1️⃣ **Clonar el repositorio:**
 
 ```bash
-cd python-package
-pip install .
+git clone https://github.com/diegomejialleras99/dsnd-dashboard-project.git
+cd dsnd-dashboard-project
+
+2️⃣ Instalar dependencias:
+
+bash
+Copiar
+Editar
+pip install -e ./python-package
+Esto instalará el paquete employee_events y todas sus dependencias, incluyendo python-fasthtml==0.8.0.
+
+🚀 Ejecución
+3️⃣ Iniciar el dashboard:
+
+bash
+Copiar
+Editar
+python report/dashboard.py
+La aplicación estará disponible en:
+
+arduino
+Copiar
+Editar
+http://localhost:5001
+
+
+💡 Notas
+Asegúrate de usar Python 3.10+.
+
+La base de datos employee_events.db ya está incluida en el proyecto.
+
+No necesitas configurar nada adicional; simplemente sigue los pasos anteriores.
+Antes de ejecutar el dashboard, instale el paquete local ejecutando estos comandos desde la raíz del repositorio:
+
+
