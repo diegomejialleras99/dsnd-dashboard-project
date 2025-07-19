@@ -2,9 +2,12 @@
 # Software Engineering for Data Scientists 
 # Proyecto actualizado
 
-This repository contains starter code for the **Software Engineering for Data Scientists** final project. Please reference your course materials for documentation on this repository's structure and important files. Happy coding!
+### ## Notas 
+# dsnd-dashboard-project
 
-### Repository Structure
+Este proyecto es un dashboard interactivo desarrollado para el programa Data Scientist Nanodegree de Udacity, utilizando `FastHTML` y `SQLite`.
+
+## 📦 Estructura del proyecto
 ```
 ├── README.md
 ├── assets
@@ -80,27 +83,10 @@ erDiagram
   employee ||--o{ employee_events : "employee_id"
   notes }o--o{ employee_events : ""
 ```
-### ## Notas para el revisor
-# dsnd-dashboard-project
 
-Este proyecto es un dashboard interactivo desarrollado para el programa Data Scientist Nanodegree de Udacity, utilizando `FastHTML` y `SQLite`.
 
 ---
 
-## 📦 Estructura del proyecto
-
-dsnd-dashboard-project/
-├── python-package/
-│ ├── employee_events/
-│ ├── setup.py
-│ └── requirements.txt
-├── report/
-│ ├── dashboard.py
-│ └── (otros módulos del dashboard)
-├── .github/
-├── .gitignore
-├── README.md
-└── requirements.txt
 
 # 📊 Dashboard de Employee Events
 
