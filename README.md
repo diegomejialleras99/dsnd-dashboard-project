@@ -94,19 +94,23 @@ erDiagram
 
 ## 1. Clonar el repositorio:
 git clone https://github.com/diegomejialleras99/dsnd-dashboard-project.git
+
 cd dsnd-dashboard-project
 
 ## 2. (Opcional) Crear y activar entorno virtual:
 ### En Windows:
 python -m venv venv
+
 venv\Scripts\activate
 
 ### En Mac/Linux:
 python -m venv venv
+
 source venv/bin/activate
 
 ## 3. Instalar dependencias:
 pip install -r requirements.txt
+
 pip install -e ./python-package
 
 ## 4. Ejecutar la aplicación:
