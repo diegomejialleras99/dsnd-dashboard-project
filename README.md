@@ -92,32 +92,32 @@ erDiagram
 
 ## Instrucciones para ejecutar el proyecto
 
+## Instrucciones para ejecutar el proyecto
+
 1️⃣ Clonar el repositorio:
 ```bash
 git clone https://github.com/diegomejialleras99/dsnd-dashboard-project.git
 cd dsnd-dashboard-project
-
 2️⃣ Crear y activar un entorno virtual (opcional pero recomendado):
 
 bash
 Copiar
 Editar
 python -m venv venv
-source venv/bin/activate  # En Mac/Linux
-venv\Scripts\activate     # En Windows
-
+# En Windows:
+venv\Scripts\activate
+# En Mac/Linux:
+source venv/bin/activate
 3️⃣ Instalar las dependencias:
 
 bash
 Copiar
 Editar
 pip install -r requirements.txt
-
 4️⃣ Ejecutar la aplicación:
 
 bash
 Copiar
 Editar
 python report/dashboard.py
-
 Al ejecutar el paso 4️⃣ aparecerá en la consola una dirección tipo http://0.0.0.0:5001/ que puedes abrir en tu navegador para ver el dashboard funcionando.
