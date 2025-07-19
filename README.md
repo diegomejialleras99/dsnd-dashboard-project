@@ -90,33 +90,34 @@ erDiagram
 
 # 📊 Dashboard de Employee Events
 
-## 1️⃣ Clonar el repositorio:
+## Instrucciones para ejecutar el proyecto
+
+1️⃣ Clonar el repositorio:
 ```bash
 git clone https://github.com/diegomejialleras99/dsnd-dashboard-project.git
 cd dsnd-dashboard-project
-```
 
-## 2️⃣ Instalar dependencias:
-```bash
+2️⃣ Crear y activar un entorno virtual (opcional pero recomendado):
+
+bash
+Copiar
+Editar
+python -m venv venv
+source venv/bin/activate  # En Mac/Linux
+venv\Scripts\activate     # En Windows
+
+3️⃣ Instalar las dependencias:
+
+bash
+Copiar
+Editar
 pip install -r requirements.txt
 
-```
-Esto instalará el paquete `employee_events` y todas sus dependencias, incluyendo `python-fasthtml==0.8.0`.
+4️⃣ Ejecutar la aplicación:
 
-## 3️⃣ Iniciar el dashboard:
-```bash
+bash
+Copiar
+Editar
 python report/dashboard.py
-```
 
-La aplicación estará disponible en:
-
-```
-http://localhost:5001
-```
-
-## 💡 Notas
-- Asegúrate de usar **Python 3.10+**.
-- La base de datos `employee_events.db` ya está incluida en el proyecto.
-- No necesitas configurar nada adicional; simplemente sigue los pasos anteriores.
-
-Antes de ejecutar el dashboard, instala el paquete local ejecutando estos comandos desde la raíz del repositorio.
+Al ejecutar el paso 4️⃣ aparecerá en la consola una dirección tipo http://0.0.0.0:5001/ que puedes abrir en tu navegador para ver el dashboard funcionando.
