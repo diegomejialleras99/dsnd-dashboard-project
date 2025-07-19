@@ -102,49 +102,34 @@ dsnd-dashboard-project/
 ├── README.md
 └── requirements.txt
 
-yaml
-Copiar
-Editar
+# 📊 Dashboard de Employee Events
 
----
-
-## ⚙️ Instalación
-
-1️⃣ **Clonar el repositorio:**
-
+## 1️⃣ Clonar el repositorio:
 ```bash
 git clone https://github.com/diegomejialleras99/dsnd-dashboard-project.git
 cd dsnd-dashboard-project
+```
 
-2️⃣ Instalar dependencias:
-
-bash
-Copiar
-Editar
+## 2️⃣ Instalar dependencias:
+```bash
 pip install -e ./python-package
-Esto instalará el paquete employee_events y todas sus dependencias, incluyendo python-fasthtml==0.8.0.
+```
+Esto instalará el paquete `employee_events` y todas sus dependencias, incluyendo `python-fasthtml==0.8.0`.
 
-🚀 Ejecución
-3️⃣ Iniciar el dashboard:
-
-bash
-Copiar
-Editar
+## 3️⃣ Iniciar el dashboard:
+```bash
 python report/dashboard.py
+```
+
 La aplicación estará disponible en:
 
-arduino
-Copiar
-Editar
+```
 http://localhost:5001
+```
 
+## 💡 Notas
+- Asegúrate de usar **Python 3.10+**.
+- La base de datos `employee_events.db` ya está incluida en el proyecto.
+- No necesitas configurar nada adicional; simplemente sigue los pasos anteriores.
 
-💡 Notas
-Asegúrate de usar Python 3.10+.
-
-La base de datos employee_events.db ya está incluida en el proyecto.
-
-No necesitas configurar nada adicional; simplemente sigue los pasos anteriores.
-Antes de ejecutar el dashboard, instale el paquete local ejecutando estos comandos desde la raíz del repositorio:
-
-
+Antes de ejecutar el dashboard, instala el paquete local ejecutando estos comandos desde la raíz del repositorio.
