@@ -98,7 +98,8 @@ cd dsnd-dashboard-project
 
 ## 2️⃣ Instalar dependencias:
 ```bash
-pip install -e ./python-package
+pip install -r requirements.txt
+
 ```
 Esto instalará el paquete `employee_events` y todas sus dependencias, incluyendo `python-fasthtml==0.8.0`.
 
