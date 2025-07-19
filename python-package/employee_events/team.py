@@ -23,6 +23,7 @@ class Team(QueryBase):
     #### YOUR CODE HERE
     @query
     def names(self):
+        
         # Query 5
         # Write an SQL query that selects
         # the team_name and team_id columns
@@ -33,6 +34,7 @@ class Team(QueryBase):
             SELECT team_name, team_id
             FROM team
         """
+    
 
     # Define a `username` method
     # that receives an ID argument
@@ -41,6 +43,7 @@ class Team(QueryBase):
     #### YOUR CODE HERE
     @query
     def username(self, id):
+
         # Query 6
         # Write an SQL query
         # that selects the team_name column
@@ -63,7 +66,8 @@ class Team(QueryBase):
     # the sql query
     #### YOUR CODE HERE
     def model_data(self, id):
-        return self.pandas_query(f"""
+
+        sql = f"""
             SELECT positive_events, negative_events FROM (
                     SELECT employee_id
                          , SUM(positive_events) positive_events
@@ -74,4 +78,5 @@ class Team(QueryBase):
                     WHERE {self.name}.{self.name}_id = {id}
                     GROUP BY employee_id
                    )
-        """)
+                """
+        return self.pandas_query(sql)
