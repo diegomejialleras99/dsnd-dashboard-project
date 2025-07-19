@@ -5,7 +5,7 @@ from .query_base import QueryBase
 # Import dependencies needed for sql execution
 # from the `sql_execution` module
 #### YOUR CODE HERE
-from .sql_execution import sql_query
+from .sql_execution import query
 
 # Define a subclass of QueryBase
 # called Employee
