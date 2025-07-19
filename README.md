@@ -1,5 +1,6 @@
 
 # Software Engineering for Data Scientists 
+# Proyecto actualizado
 
 This repository contains starter code for the **Software Engineering for Data Scientists** final project. Please reference your course materials for documentation on this repository's structure and important files. Happy coding!
 
@@ -79,3 +80,10 @@ erDiagram
   employee ||--o{ employee_events : "employee_id"
   notes }o--o{ employee_events : ""
 ```
+### ## Notas para el revisor
+
+Antes de ejecutar el dashboard, instale el paquete local ejecutando estos comandos desde la raíz del repositorio:
+
+```bash
+cd python-package
+pip install .
