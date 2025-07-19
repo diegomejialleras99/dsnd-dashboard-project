@@ -111,8 +111,6 @@ source venv/bin/activate
 ## 3. Instalar dependencias:
 pip install -r requirements.txt
 
-pip install -e ./python-package
-
 ## 4. Ejecutar la aplicación:
 python report/dashboard.py
 
