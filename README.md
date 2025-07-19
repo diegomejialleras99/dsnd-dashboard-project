@@ -92,12 +92,6 @@ erDiagram
 
 ## Instrucciones para ejecutar el proyecto
 
-## Instrucciones para ejecutar el proyecto
-
-# Instrucciones para ejecutar el proyecto
-
-# Instrucciones para ejecutar el proyecto
-
 ## 1. Clonar el repositorio:
 git clone https://github.com/diegomejialleras99/dsnd-dashboard-project.git
 cd dsnd-dashboard-project
